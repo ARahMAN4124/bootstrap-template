@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+.container {
+}
+.bg-dark {
+  opacity: 0.96;
+}
+#home {
+  padding-top: 8rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(8, 0, 0, 0.616)),
+    url(../images/home-1.jpeg), no-repeat center top;
+  background-attachment: fixed;
+  padding-bottom: 2rem;
+}
+.fa-check {
+  background: white;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.form-card {
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  #home h2 {
+    font-size: 30px;
+  }
+} ;
